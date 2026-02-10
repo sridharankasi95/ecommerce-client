@@ -1,6 +1,8 @@
 import BannerSlider from "../components/BannerSlider";
 import AnnouncementBar from "../components/AnnouncementBar";
 import OfferCards from "../components/OfferCards";
+import CategorySection from "../components/CategorySection";
+import FeaturedCollection from "../components/FeaturedCollection.jsx";
 
 const HomePage = () => {
   return (
@@ -8,7 +10,8 @@ const HomePage = () => {
       <AnnouncementBar />
       <BannerSlider />
       <OfferCards />
-      <h1>This Home Page</h1>
+      <CategorySection />
+      <FeaturedCollection />
     </div>
   )
 }
