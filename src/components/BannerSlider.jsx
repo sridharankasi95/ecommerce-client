@@ -9,33 +9,33 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 const BannerSlider = () => {
   return (
-    <div className="w-full">
+    <div className="w-full h-[400px] mt-4">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
-        navigation
+        navigation={false}
         pagination={{ clickable: true }}
         autoplay={{ delay: 3000 }}
-        loop={true}
+        loop={false}
         className="rounded-xl overflow-hidden"
       >
         <SwiperSlide>
           <img
-            src="/banners/banner1.jpg"
-            className="w-full h-[400px] object-cover"
+            src="../../public/banners/banner1.jpg"
+            className="w-full h-[400px] object-fit"
           />
         </SwiperSlide>
 
         <SwiperSlide>
           <img
-            src="/banners/banner2.jpg"
-            className="w-full h-[400px] object-cover"
+            src="../public/banners/banner2.jpg"
+            className="w-full h-[400px] object-fit"
           />
         </SwiperSlide>
 
         <SwiperSlide>
           <img
-            src="/banners/banner3.jpg"
-            className="w-full h-[400px] object-cover"
+            src="../../public/banners/banner3.jpg"
+            className="w-full h-[400px] object-fit"
           />
         </SwiperSlide>
       </Swiper>
