@@ -3,6 +3,8 @@ import AnnouncementBar from "../components/AnnouncementBar";
 import OfferCards from "../components/OfferCards";
 import CategorySection from "../components/CategorySection";
 import FeaturedCollection from "../components/FeaturedCollection.jsx";
+import ProductSlider from "../components/ProductSlider.jsx";
+import YoutubeSection from "../components/HomePage/YoutubeSection.jsx";
 
 const HomePage = () => {
   return (
@@ -12,6 +14,8 @@ const HomePage = () => {
       <OfferCards />
       <CategorySection />
       <FeaturedCollection />
+      <ProductSlider />
+      <YoutubeSection />
     </div>
   )
 }

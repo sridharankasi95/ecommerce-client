@@ -30,6 +30,7 @@ const BannerSlider = () => {
             src="../public/banners/banner2.jpg"
             className="w-full h-[400px] object-fit"
           />
+          
         </SwiperSlide>
 
         <SwiperSlide>

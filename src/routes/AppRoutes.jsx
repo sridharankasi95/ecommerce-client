@@ -4,13 +4,13 @@ import AboutPage from '../pages/About'
 import MainLayout from '../layouts/MainLayout'
 
 const AppRoutes = () => {
-    return (
-        <Routes>
+  return (
+    <Routes>
       <Route element={<MainLayout />} >
-     <Route path='/' element={<HomePage />} />
-     <Route path='/about' element={<AboutPage />} />
+        <Route path='/' element={<HomePage />} />
+        <Route path='/about' element={<AboutPage />} />
       </Route>
-      </Routes>
-    )
+    </Routes>
+  )
 }
 export default AppRoutes
