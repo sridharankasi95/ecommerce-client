@@ -11,7 +11,7 @@ const YoutubeSection = () => {
 
         <iframe
           className="absolute top-0 left-0 w-full h-full"
-          src="https://www.youtube.com/embed/Ek-TnnOCHfI&t=8s"
+          src="https://www.youtube.com/embed/Sw4hZ6-LFQM?si=jaQneo_am9L4BM2e"
           title="YouTube video"
           allowFullScreen
         ></iframe>

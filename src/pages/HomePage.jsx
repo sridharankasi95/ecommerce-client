@@ -5,6 +5,8 @@ import CategorySection from "../components/CategorySection";
 import FeaturedCollection from "../components/FeaturedCollection.jsx";
 import ProductSlider from "../components/ProductSlider.jsx";
 import YoutubeSection from "../components/HomePage/YoutubeSection.jsx";
+import BlogSlider from "../components/BlogSlider.jsx";
+import InstagramSlider from "../components/HomePage/InstagramSlider.jsx";
 
 const HomePage = () => {
   return (
@@ -16,6 +18,9 @@ const HomePage = () => {
       <FeaturedCollection />
       <ProductSlider />
       <YoutubeSection />
+      <ProductSlider />
+      <BlogSlider />
+      <InstagramSlider />
     </div>
   )
 }
