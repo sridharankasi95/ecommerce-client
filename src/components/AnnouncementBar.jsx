@@ -2,17 +2,40 @@ import { TiTick } from "react-icons/ti";
 
 const AnnouncementBar = () => {
   return (
-    <div className="flex items-center justify-center text-gray-700 text-center py-2 px-10 gap-10">
-    <div className="w-1/3 flex justify-start items-center">
-        <TiTick className="mr-2" /> Official Revo Shop over 1100 products online
-    </div>
-        <div className="w-1/3 flex justify-center items-center">
-        <TiTick className="mr-2" /> Free shipping and returns for members
-    </div>
-        <div className="w-1/3 flex justify-end items-center">
-       <TiTick className="mr-2" /> Same-day dispatch before 8pm (Mon-Fri)
-    </div>
+    <div className="bg-gray-100 text-gray-700">
+
+      <div className="max-w-7xl mx-auto px-4 py-2">
+
+        <div className="
+          flex flex-col 
+          sm:flex-row 
+          items-center 
+          justify-between 
+          gap-2 
+          text-sm
+        ">
+
+          <div className="flex items-center gap-2">
+            <TiTick />
+            <span>Official Revo Shop over 1100 products online</span>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <TiTick />
+            <span>Free shipping and returns for members</span>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <TiTick />
+            <span>Same-day dispatch before 8pm (Mon-Fri)</span>
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
   );
-}
+};
+
 export default AnnouncementBar;
