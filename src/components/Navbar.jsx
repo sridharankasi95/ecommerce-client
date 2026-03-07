@@ -29,7 +29,7 @@ const Navbar = () => {
         {/* Right */}
         <div className="flex justify-end gap-5 w-1/3">
           <button className="cart-btn">Cart</button>
-          <button className="login-btn">Login</button>
+          <Link to="/login" className="login-btn">Login</Link>
         </div>
       </div>
       {open && (
